@@ -36,10 +36,10 @@ const Navbar = () => (
           <Link href='/search' passHref>
             <MenuItem icon={<FcSearch />}>Search</MenuItem>
           </Link>
-          <Link href='/search?purpose="for-sale"' passHref>
+          <Link href='/search?purpose=for-sale' passHref>
             <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
           </Link>
-          <Link href='/search?purpose="for-rent"' passHref>
+          <Link href='/search?purpose=for-rent' passHref>
             <MenuItem icon={<FcKey />}>Rent Property</MenuItem>
           </Link>
         </MenuList>
